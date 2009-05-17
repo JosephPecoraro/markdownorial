@@ -1,4 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+<?php
+include 'config.php';
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-tocict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -7,7 +9,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="description" content="Ruby Readline Documentation, Tutorial, and Examples" />
 	<meta name="keywords" content="ruby, readline, documentation, docs, examples, libedit, shell" />
-	<title>Ruby Readline</title>
+	<title><?php echo $html_title; ?></title>
 
 	<!-- Blueprint CSS Framework (0.8) -->
 	<link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection" />
@@ -82,7 +84,7 @@
 
 	<!-- Header and Gradient -->
 	<div id="header" class="center last alt">
-		<h1>Ruby Readline Documentation and Tutorial</h1>
+		<h1><?php echo $tutorial_title; ?></h1>
 	</div>
 	<div id="header-grad1">&nbsp;</div>
 	<div id="header-grad2">&nbsp;</div>
