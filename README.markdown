@@ -11,6 +11,7 @@ If you haven't yet checked out the source do so with:
 Then to work with it:
 
   * edit the `content.markdown` Markdown file with your content.
+  * edit the `footer.php` file to include the links you want in your footer.
   * when you're set run `rake` to generate the html file.
 
 ### Contact Info
