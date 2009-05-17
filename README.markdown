@@ -1,6 +1,6 @@
 ### markdownorial
 
-Quickly turn any Markdown file into a fully functional, and awesome, tutorial with a table of contents.
+Quickly turn any Markdown file into a fully functional tutorial with an awesome table of contents.
 
 ### Installation
 
@@ -10,8 +10,8 @@ If you haven't yet checked out the source do so with:
     
 Then to work with it:
 
-  * to be determined
-
+  * edit the `content.markdown` Markdown file with your content.
+  * when you're set run `rake` to generate the html file.
 
 ### Contact Info
 

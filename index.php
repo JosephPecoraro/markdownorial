@@ -31,7 +31,6 @@
 			var level = 2;
 			$('h2, h3')
 				.css('cursor','pointer')
-				.click(function() { window.location.hash = $(this).attr('id'); })
 				.hover(function() { $(this).append('<span class="hash">&nbsp;#<\/span>') },
 				       function() { $(this).find('span').remove() } )
 				.each(function() {
@@ -41,8 +40,10 @@
 						level = 2; toc += '<\/ul><\/li>';
 					}
 					var $elem = $(this);
+					$elem.attr('id', '_' + $elem.text().toLowerCase().replace(/\W+/g,'_') );
 					toc += '<li><a href="#'+$elem.attr('id')+'">'+$elem.text()+'<\/a><\/li>';
-			});
+			  })
+			  .click(function() { window.location.hash = $(this).attr('id'); });
 			toc += '<\/ul>';
 
 			// Page Slider for the Table of Contents
