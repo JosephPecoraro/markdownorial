@@ -1,0 +1,119 @@
+/*
+ *  Simple Single Page Styles
+ *  @author:  Joseph Pecoraro
+ *  @email:   joepeck02@gmail.com
+ *  @website: http://blog.bogojoker.com
+ */
+
+/* Generic Styles */
+p, li { font-size: 1.2em; }
+ul { margin-left: 3em; }
+code { background-color: #DDD; padding: 2px 3px; }
+
+/* Generic Classes */
+.center { text-align: center; }
+.hash { color: #BBB; font-style: italic; }
+.alt {
+  font-family: "Warnock Pro","Goudy Old Style","Palatino","Book Antiqua",Georgia,serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* Logo Clickable Area */
+#toc {
+	position: fixed;
+	right: 22px;
+	top: 5px;
+	color: blue;
+	z-index: 999;
+	cursor: pointer;
+}
+
+/* Header */
+#header {
+	padding: 5px;
+	border-bottom: 1px solid #AAA;
+	background: #555 url(../images/sym-white.png) no-repeat 97% 5px fixed;
+}
+
+#header h1 {
+	color: white;
+	line-height: 2em; height: 1.5em; /* Vertical Center Hack */
+}
+
+/* Quick Gradients */
+#header-grad1, #header-grad2, #header-grad3 {
+	height: 1px;
+	background: url(../images/sym-black.png) no-repeat 97% 5px fixed;
+}
+#header-grad1 { background-color: #CCC; }
+#header-grad2 { background-color: #DDD; }
+#header-grad3 { background-color: #F2F2F2; }
+#footer-gradient {
+	border-top: 1px solid #F2F2F2;
+	height: 1px; background: #DDD;
+	border-bottom: 1px solid #CCC;
+}
+
+/* Wrapper */
+#wrapper {
+	background: url(../images/sym-black.png) no-repeat 97% 5px fixed;
+}
+
+/* Container */
+#container { padding-top: 2em; }
+
+/* Code Sections */
+#content pre {
+	margin: 20px 120px;
+	padding: 12px 30px;
+	/* -webkit-box-shadow: 0px 5px 5px #666; Cool... But not needed */
+}
+
+/* Footer */
+#footer {
+	padding: 7px;
+	border-top: 1px solid #AAA;
+	background: #555;
+	border-bottom: 1px solid #444;
+}
+
+#footer div {
+  color: white;
+	height: 1.5em; line-height: 1.5em; /* Vertical Center Hack */
+	font-size: 1.3em;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px dotted #EEE;
+}
+
+#footer a:hover { border-bottom: 1px solid white; }
+
+/* Page Slider Styles */
+#pageslide-body-wrap { position: relative; }
+#pageslide-content h2 { color: #C60; }
+#pageslide-slide-wrap {
+  position: fixed;
+  width: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: #141414;
+}
+
+/* Page Slider Content Styles */
+#secondary {
+  color: #FBEF93;
+  margin: 1.5em 0;
+  padding: 50px 35px;
+  position: relative;
+}
+
+#secondary a { color: #FBEF93; text-decoration: none; font-size: 1em; }
+#secondary a:hover { text-decoration: underline; }
+#secondary ul { list-style-type: none; }
+#secondary li { list-style-type: disc; font-size: 1em; }
+#secondary li.none { list-style-type: none; }
