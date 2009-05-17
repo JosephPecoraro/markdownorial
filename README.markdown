@@ -2,6 +2,10 @@
 
 Quickly turn any Markdown file into a fully functional tutorial with an awesome table of contents.
 
+### Example
+
+My Ruby Readline tutorial is [a working example](http://bogojoker.com/readline/).
+
 ### Installation
 
 If you haven't yet checked out the source do so with:
