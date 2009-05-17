@@ -8,7 +8,7 @@
 /* Generic Styles */
 p, li { font-size: 1.2em; }
 ul { margin-left: 3em; }
-code { background-color: #DDD; padding: 2px 3px; }
+code { font-family:Monaco,Consolas,monospace; }
 
 /* Generic Classes */
 .center { text-align: center; }
