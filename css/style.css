@@ -10,6 +10,7 @@ p, li { font-size: 1.2em; }
 ul { margin-left: 3em; }
 code { font-family:Monaco,Consolas,monospace; }
 img { margin: 0 auto; display: block; }
+table { margin: 40px auto; }
 
 /* Generic Classes */
 .center { text-align: center; }
