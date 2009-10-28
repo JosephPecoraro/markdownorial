@@ -5,6 +5,7 @@ include 'config.php';
 <head>
 
 	<!-- Meta -->
+	<meta charset="utf-8">
 	<title><?php echo $html_title; ?></title>
 
 	<!-- Blueprint CSS Framework (0.8) -->
